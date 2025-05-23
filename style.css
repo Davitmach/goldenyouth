@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Luxurious+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&family=Tektur:wght@400..900&display=swap');
+@font-face {
+  font-family: 'Luxurious Script';
+  src: url('./LuxuriousScript-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+ font-family: 'inter';
+}
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 20px;
+}
+body >div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+h1 {
+    color: #a4a7a6;
+    font-family: 'Luxurious Script';
+    font-size: 50px;
+    font-weight: 300;
+}
+.soc >div {
+    display: flex; 
+    align-items: start;
+    gap: 10px;
+
+}
+.soc {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 50px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'inter';
+    font-size: 16px;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    font-weight: 400;
+}
