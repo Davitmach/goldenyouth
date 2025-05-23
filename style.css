@@ -21,6 +21,7 @@ body {
     align-items: center;
     padding-inline: 20px;
     height: 100vh;
+    
 }
 body >div {
     display: flex;
